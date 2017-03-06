@@ -1,0 +1,3 @@
+configurations.create("default")
+artifacts.add("default", file('NxDroid_API-mptmm-nxrayQoE-6.0.2.2-1.aar'))
+task testClasses{doLast{println "Dummy testClasses task"}}
